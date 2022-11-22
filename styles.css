@@ -1,5 +1,5 @@
 * {
-    font-family: Verdana, Arial, sans-serif;
+    font-family: Arial, Verdana, sans-serif;
     line-height: 1.5;
 }
 
@@ -50,6 +50,10 @@ nav li {
     text-align: center;
 }
 
+nav li:first-of-type {
+    background-color: #f28095;
+}
+
 nav a {
     display: block;
     padding: 16px;
@@ -64,10 +68,6 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #f28095;
-}
-
-.first-nav {
     background-color: #f28095;
 }
 
